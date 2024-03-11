@@ -1,8 +1,11 @@
 # rotary-display
-rotary encoder and display for controlling home-assistant entities
+Rotary encoder and display for controlling home-assistant entities
 This Build includes a 3D printed case , wemos_D1_mini , rotary encoder and an ssd1306 OLED display module.
 it is programmed via esp-home whic inturn controls and displays the values of homeassistant entities.
 menu and sub menu system is supported so that you can categorize and organize the items in menu.
+
+#### USE THE GITHACK HOSTED MENU GENERATOR FOR EASY FIRMWARE BUILD: 
+            https://rawcdn.githack.com/mikosoft83/pithy_screen_menu_system/a62acf32be99deb8db09b108542ffee5c1e66067/menu_generator/index.html
 
 The controller consist of:
 1. Wemos_D1_mini                           you can use any esp8266 module
