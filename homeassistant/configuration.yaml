@@ -1,0 +1,9 @@
+sensor:
+  - platform: template
+    sensors:
+      controller_light_bulb_brightness:
+        value_template: "{{ state_attr('light.bulb', 'brightness') }}"                 ###Replace with your own entity names
+      controller_media_player_tv_2_volume_level:                 ###Replace with your own entity names
+        value_template: "{{ state_attr('media_player.tv_2', 'volume_level') }}"                 ###Replace with your own entity names
+      controller_media_player_echo_dot_volume_level:                 ###Replace with your own entity names
+        value_template: "{{ state_attr('media_player.echo_dot', 'volume_level') }}"                 ###Replace with your own entity names
